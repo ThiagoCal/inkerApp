@@ -41,6 +41,13 @@ const Navbar = () => {
               >
                 Profile Page
               </Link>
+
+              <Link
+                to="/showProfile"
+                className="bg-white text-gray-800 font-semibold py-2 px-4 rounded mr-2"
+              >
+                Show Profile
+              </Link>
               <Link
                 to="/createsession"
                 className="bg-white text-gray-800 font-semibold py-2 px-4 rounded mr-2"

@@ -7,6 +7,7 @@ import LandingPage from "./Components/LandingPage";
 import Signup from "./Components/SignUp";
 import CreateSession from "./Components/CreateSession";
 import ProfilePage from "./Components/ProfilePage";
+import ShowProfile from "./Components/ShowProfile";
 
 function App() {
   return (
@@ -27,6 +28,14 @@ function App() {
             element={
               <>
                 <Login />
+              </>
+            }
+          ></Route>
+          <Route
+            path="/showProfile"
+            element={
+              <>
+                <ShowProfile />
               </>
             }
           ></Route>
